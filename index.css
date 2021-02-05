@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yusei Magic', sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    background-color: rgb(111, 111, 112)
+
+}
+
+
+.imageContainer { 
+height: 300px;
+width: 400px; 
+border-radius: 15px;
+/* border:2px solid black; */
+overflow:hidden;
+object-fit:cover;
+}
+
+.foodImage {
+    max-width:100%;
+    max-height:100%;
+    object-fit:cover;
+    border-radius: 15px;
+
+}
+
+h1{
+    
+    letter-spacing: 4px;
+    font-size:50px;
+    text-align:center;
+
+}
+
+h3{
+    letter-spacing: 2px;
+    font-size:20px;
+    text-align:center;
+
+}
+
+.heading{
+
+margin-bottom:30px;
+} 
+
+
+button{
+     color: #fff !important;
+     /* text-decoration: none; */
+    background: grey;
+     padding: 15px 100px;
+     border-radius: 8px;
+     margin-bottom:40px;
+     font-size:30px;
+     display: inline-block;
+     border: none;
+     transition: all 0.4s ease 0s;
+     }
+button:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    /* -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57); */
+    transition: all 0.4s ease 0s;
+}
